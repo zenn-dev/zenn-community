@@ -16,4 +16,4 @@ jobs:
       if: github.event.action == 'opened'
       with:
         project: 'https://github.com/zenn-dev/zenn-roadmap/projects/1'
-        column_name: '📝 Backlog'
+        column_name: '📝  Backlog'
