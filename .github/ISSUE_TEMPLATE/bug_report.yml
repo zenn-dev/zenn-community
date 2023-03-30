@@ -1,0 +1,30 @@
+name: Bug report
+description: バグ報告
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: 事象
+      description: 発生した事象をできるだけ詳細に記載してください。
+    validations:
+      required: true
+  - type: textarea # 複数存在する場合を想定
+    attributes:
+      label: 発生したページのURL
+      description: 発生したページのURLを記載してください。
+  - type: textarea
+    attributes:
+      label: 発生した画面のスクリーンショット
+      description: 可能であれば、発生時の画面のスクリーンショットを添付してください。
+  - type: textarea
+    attributes:
+      label: 再現方法
+      description: 再現性がある場合は、手順を記載してください。
+  - type: textarea
+    attributes:
+      label: 環境
+      description: 環境依存の可能性がある場合は記載してください。
+      placeholder: |
+        - Device: [e.g. iPhone12]
+        - OS: [e.g. iOS14.4]
+        - Browser: [e.g. chrome 89.0.4389.72]
